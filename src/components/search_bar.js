@@ -10,6 +10,7 @@ class SearchBar extends Component {
         return (
             <div className="search-bar">
                 <input 
+                    placeholder="Type some text to filter videos..."
                     value={this.state.term} 
                     onChange={evt => this.onInputChange(evt.target.value)} />
             </div>
